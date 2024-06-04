@@ -14,7 +14,10 @@ const stats = [
     num: 30,
     text: "certificate",
   },
-
+  {
+    num: 23,
+    text: "years old",
+  },
 ];
 
 const Stats = () => {
