@@ -16,27 +16,32 @@ const page = () => {
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80" />
             <div className="flex flex-col xl:flex-row items-center gap-8">
-            <a href="/assets/CV_NgDuyQuang.pdf" download>
-            <div className="flex flex-col xl:flex-row gap-3 justify-center xl:justify-start items-center">
-            <Button
-            variant="outline"
-            size="md"
-            className="uppercase  text-sm flex gap-2 items-center"
-          >
-            <span>Download CV</span>
-            <FiDownload className="text-xl" />
-          </Button>
-          <Button
-          variant="outline"
-          size="md"
-          className="uppercase text-sm flex gap-2 items-center"
-        >
-          <span>Buy me a coffee</span>
-          <FiCoffee className="text-xl" />
-        </Button>
-            </div>
-           
-          </a>          
+              <div className="flex xl:flex-row gap-3 justify-center xl:justify-start items-center">
+                <a href="/assets/CV_NgDuyQuang.pdf" download>
+                  <Button
+                    variant="outline"
+                    size="md"
+                    className="uppercase  text-sm flex gap-2 items-center"
+                  >
+                    <span>Download CV</span>
+                    <FiDownload className="text-xl" />
+                  </Button>
+                </a>
+                <a
+                  target="blank"
+                  href="https://buymeacoffee.com/nguyenduyqh
+"
+                >
+                  <Button
+                    variant="outline"
+                    size="md"
+                    className="uppercase text-sm flex gap-2 items-center"
+                  >
+                    Buy me a coffee
+                    <FiCoffee className="text-xl" />
+                  </Button>
+                </a>
+              </div>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
@@ -53,7 +58,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Stats/>
+      <Stats />
     </section>
   );
 };
