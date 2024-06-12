@@ -2,7 +2,7 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
-import { FiDownload } from "react-icons/fi";
+import { FiDownload, FiCoffee } from "react-icons/fi";
 
 const page = () => {
   return (
@@ -17,14 +17,25 @@ const page = () => {
             <p className="max-w-[500px] mb-9 text-white/80" />
             <div className="flex flex-col xl:flex-row items-center gap-8">
             <a href="/assets/CV_NgDuyQuang.pdf" download>
+            <div className="flex flex-col xl:flex-row gap-3 justify-center xl:justify-start items-center">
             <Button
-              variant="outline"
-              size="lg"
-              className="uppercase flex gap-2 items-center"
-            >
-              <span>Download CV</span>
-              <FiDownload className="text-xl" />
-            </Button>
+            variant="outline"
+            size="md"
+            className="uppercase  text-sm flex gap-2 items-center"
+          >
+            <span>Download CV</span>
+            <FiDownload className="text-xl" />
+          </Button>
+          <Button
+          variant="outline"
+          size="md"
+          className="uppercase text-sm flex gap-2 items-center"
+        >
+          <span>Buy me a coffee</span>
+          <FiCoffee className="text-xl" />
+        </Button>
+            </div>
+           
           </a>          
               <div className="mb-8 xl:mb-0">
                 <Social
