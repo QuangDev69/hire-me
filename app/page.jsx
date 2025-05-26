@@ -17,7 +17,7 @@ const page = () => {
             <p className="max-w-[500px] mb-9 text-white/80" />
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <div className="flex flex-col xl:flex-row gap-3 justify-center xl:justify-start items-center">
-                <a href="/assets/CV_NgDuyQuang.pdf" download>
+                <a href="/assets/CV_NguyenDuyQuang_JavaDeveloper.pdf" download>
                   <Button
                     variant="outline"
                     size="md"
