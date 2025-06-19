@@ -13,19 +13,19 @@ const services = [
   },
   {
     num: "02",
-    title: "UI/UX Design",
-    des: "Our UI/UX design services focus on creating intuitive and engaging interfaces that enhance user satisfaction. We prioritize usability and aesthetics to deliver an exceptional digital experience for your audience.",
+    title: "Apple Products Reseller",
+    des: "I specialize in reselling Apple electronic products, including MacBooks, iPhones, AirPods, and accessories like the Magic Mouse and Magic Keyboard,...",
     href: "/contact",
   },
   {
     num: "03",
-    title: "Logo Design",
-    des: "Our logo design service crafts unique and memorable logos that represent your brand's identity. We blend creativity with strategy to create a visual symbol that resonates with your target audience.",
+    title: "Personal Trainer",
+    des: "I’m a personal fitness trainer specializing in helping beginners build a solid foundation. I provide customized workout plans and hands-on guidance from basic form to advanced fitness techniques.",
     href: "/contact",
   },
   {
     num: "04",
-    title: "Boy Friend",
+    title: "Specially / 1-0-2 - Boy Friend",
     des: "Experience the perfect companion with our Boy Friend service. Whether you need a date for an event or a listening ear, our friendly and charming companions are here to make your day special and enjoyable",
     href: "/contact",
   }
