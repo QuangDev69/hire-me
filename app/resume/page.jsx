@@ -14,7 +14,7 @@ import { SiTailwindcss, SiSpringboot } from "react-icons/si";
 
 const about = {
   title: "About me",
-  des: "Hi, I'm Quang, 22 years old, and a software engineer living in Ho Chi Minh City, Vietnam. I've never dated before, but I'm looking to date two girls at the same time. If you're interested, please get in touch!",
+  des: "Hi, I'm Quang, 24 years old, and a software engineer living in Ho Chi Minh City, Vietnam. I've never dated before, but I'm looking to date two girls at the same time. If you're interested, please get in touch!",
   info: [
     {
       fieldName: "Name",
@@ -26,11 +26,12 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "1 year",
+      fieldValue: "2 years",
     },
-    {
+
+
       fieldName: "Instagram",
-      fieldValue: "nd_quang01",
+      fieldValue: "buq.01",
     },
     {
       fieldName: "Nationality",
@@ -38,7 +39,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "duyquang.shsoftvina@gmail.com",
+      fieldValue: "ndquangk19@gmail.com",
     },
     {
       fieldName: "Freelance",
@@ -54,7 +55,7 @@ const experience = {
     {
       company: "SH SOFT VINA",
       position: "Java developer",
-      duration: "2023 - Present",
+      duration: "2023 - 2024",
     },
     {
       company: "Martech Boiler",
