@@ -29,7 +29,7 @@ const page = () => {
                 </a>
                 <a
                   target="blank"
-                  href="https://buymeacoffee.com/nguyenduyqh
+                  href="https://buymeacoffee.com/nduyquang.01
 "
                 >
                   <Button
