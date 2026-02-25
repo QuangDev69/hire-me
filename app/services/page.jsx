@@ -25,7 +25,7 @@ const services = [
   },
   {
     num: "04",
-    title: "Specially / 1-0-2 - Boy Friend",
+    title: "Specially / Boy Friend",
     des: "Experience the perfect companion with our Boy Friend service. Whether you need a date for an event or a listening ear, our friendly and charming companions are here to make your day special and enjoyable",
     href: "/contact",
   }
